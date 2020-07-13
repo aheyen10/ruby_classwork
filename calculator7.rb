@@ -1,16 +1,16 @@
 class Calculator
     
-    def initialize (var1, var2)
-        @var1 = variable1
-        @var2 = variable2
+    def initialize (a, b)
+        @a = a
+        @b = b
     end
 
     def add
-        @var1 + @var2
+        @a + @b
     end
 
     def sub
-        @var1 - @var2
+        @a - @b
     end
 end
 
